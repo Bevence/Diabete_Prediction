@@ -25,7 +25,7 @@ SECRET_KEY = '8%eyqy!#tw4$l(@p8j9f)s!rfnx0bqwhfu&!t=8qfuyhjp9j73'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['diabetes-prediction-system.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -130,5 +130,3 @@ STATICFILES_DIRS = [
 # LOGIN_REDIRECT_URL = '/'
 
 #Activate Django_Heroku
-import django_on_heroku
-django_on_heroku.settings(locals())
